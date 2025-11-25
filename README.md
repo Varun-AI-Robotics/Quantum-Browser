@@ -130,7 +130,7 @@ src/main/java/project/
 - MIT License — Free to use and modify.
 
 ## 📸 Screenshot:
-![image alt][(https://github.com/Varun-AI-Robotics/Java-Based-Web-Browser/blob/main/Screenshot%202025-05-25%20163824.png?raw=true](https://github.com/Varun-AI-Robotics/Quantum-Browser/blob/main/Screenshot%202025-11-23%20132102.png?raw=true))
+![image alt](https://github.com/Varun-AI-Robotics/Quantum-Browser/blob/1905a7516e26e7786b95ac5a64f1315ec6c5da14/Screenshot%202025-11-23%20132102.png)
 
 
 
