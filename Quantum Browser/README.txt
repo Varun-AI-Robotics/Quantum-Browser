@@ -1,4 +1,4 @@
-Quantum Browser - JavaFX GUI Project (Rubric Ready)
+Quantum Browser - JavaFX Project
 ==============================================
 
 This project is designed to satisfy your Java GUI Project rubric:
