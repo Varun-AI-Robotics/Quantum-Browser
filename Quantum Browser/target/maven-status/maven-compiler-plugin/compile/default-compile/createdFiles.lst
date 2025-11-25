@@ -1,0 +1,11 @@
+project\PrimaryController.class
+project\App.class
+project\dao\GenericDAO.class
+project\dao\HistoryDAO.class
+project\model\HistoryEntry.class
+project\model\BaseEntity.class
+project\dao\BaseDAO.class
+project\dao\BookmarkDAO.class
+project\dao\DBUtil.class
+project\exception\DataAccessException.class
+project\model\Bookmark.class

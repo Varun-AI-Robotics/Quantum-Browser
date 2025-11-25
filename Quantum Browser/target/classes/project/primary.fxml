@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.WebView?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="project.PrimaryController"
+            prefWidth="1200" prefHeight="700"
+            styleClass="root-pane">
+
+    <!-- TOP BAR -->
+    <top>
+        <HBox spacing="10" styleClass="top-bar">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Button fx:id="homeButton" text="Home" onAction="#onHome" styleClass="top-button"/>
+
+            <TextField fx:id="addressBar"
+                       promptText="Search or type a URL"
+                       HBox.hgrow="ALWAYS"
+                       styleClass="address-bar"/>
+
+            <Button fx:id="goButton" text="Go" onAction="#onGo" styleClass="primary-button"/>
+            <Button fx:id="googleButton" text="Search" onAction="#onSearch" styleClass="primary-button"/>
+            <Button fx:id="addBookmarkButton" text="★" onAction="#onAddBookmark" styleClass="primary-button"/>
+        </HBox>
+    </top>
+
+    <!-- CENTER BROWSER AREA -->
+    <center>
+        <StackPane styleClass="center-pane">
+            <WebView fx:id="webView"/>
+        </StackPane>
+    </center>
+
+    <!-- RIGHT SIDE: Bookmarks + History -->
+    <right>
+        <VBox spacing="10" prefWidth="320" styleClass="side-panel">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Bookmarks" styleClass="panel-title"/>
+            <ListView fx:id="bookmarksList"
+                      onMouseClicked="#onBookmarkDoubleClick"
+                      prefHeight="260"/>
+
+            <Separator/>
+
+            <Label text="History" styleClass="panel-title"/>
+            <ListView fx:id="historyList" VBox.vgrow="ALWAYS"/>
+
+            <Button text="Clear History (DB)" onAction="#onClearHistory" styleClass="danger-button"/>
+        </VBox>
+    </right>
+
+    <!-- STATUS BAR -->
+    <bottom>
+        <HBox styleClass="status-bar">
+            <padding>
+                <Insets top="5" right="10" bottom="5" left="10"/>
+            </padding>
+            <Label fx:id="statusLabel" text="Ready"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

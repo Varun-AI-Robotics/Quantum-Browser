@@ -1,0 +1,77 @@
+/* Global root pane with background image similar to the screenshot */
+.root-pane {
+    -fx-background-image: url("wallpaper.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+/* Semi-transparent dark top bar */
+.top-bar {
+    -fx-background-color: rgba(10, 10, 30, 0.9);
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+}
+
+/* Address bar styling */
+.address-bar {
+    -fx-background-radius: 15;
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #888888;
+    -fx-border-color: #3b82f6;
+    -fx-border-radius: 15;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
+
+.top-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.primary-button {
+    -fx-background-color: linear-gradient(to bottom right, #3b82f6, #06b6d4);
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+    -fx-padding: 6 16 6 16;
+}
+
+.danger-button {
+    -fx-background-color: #ef4444;
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+}
+
+/* Center pane */
+.center-pane {
+    -fx-padding: 20;
+}
+
+/* Side panel */
+.side-panel {
+    -fx-background-color: rgba(15, 23, 42, 0.95);
+    -fx-background-radius: 20 0 0 20;
+    -fx-padding: 12;
+    -fx-spacing: 8;
+}
+
+.panel-title {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-background-color: rgba(15, 23, 42, 0.9);
+    -fx-text-fill: white;
+}
+
+/* List views */
+.list-view {
+    -fx-background-radius: 12;
+}
