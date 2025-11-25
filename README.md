@@ -83,7 +83,7 @@ CREATE DATABASE quantum_browser;
 - USER
 
 - PASSWORD
-- 
+
 ## 📂 Navigate to the Source Folder
 
 Go to the folder containing the Java source files. For example:
