@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/your-username/quantum-browser)](https://github.com/your-username/quantum-browser/issues)
 
 
-# 🚀 Quantum Browser
+# 🌐 Quantum Browser
 
 *A Modern JavaFX Web Browser*
 
